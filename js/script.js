@@ -2570,7 +2570,7 @@ if (IS_HEADER) {
 	init();
 } else {
 	// Allow status to render, then preload assets and start app.
-	setLoadingStatus("正在点燃导火线");
+	setLoadingStatus("CK is working on the fireworks");
 	setTimeout(() => {
 		// 只加载 soundManager
 		var promises = [soundManager.preload()];
